@@ -1,0 +1,41 @@
+@import '../../styles/variables';
+
+.main {
+    display: grid;
+    grid-template-areas: 
+    "aside banner"
+    "aside gallery";
+    grid-template-columns: auto 1fr;
+    grid-template-rows: auto 1fr;
+    gap: 3rem;
+    padding: 3rem 2.4rem;
+
+    &__aside {
+        grid-area: aside;
+    }
+
+    &__banner {
+        grid-area: banner;
+        position: relative;
+        max-height: 32.8rem;
+
+        .banner__title {
+            position: absolute;
+            font-size: 4rem;
+            line-height: normal;
+            width: 30.1rem;
+            height: 14.4rem;
+            z-index: 1;
+            color: $white;
+            top: 9.2rem;
+            left: 6.4rem;
+        }
+
+        .banner__image {
+            width: 100%;
+            height: 100%;
+            border-radius: 2rem;
+            opacity: 0.8;
+        }
+    }
+}

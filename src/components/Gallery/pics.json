@@ -1,0 +1,72 @@
+[
+    {
+        "titulo": "Nome da Foto",
+        "creditos": "Alura Space",
+        "imagem": "/assets/img/Rectangle 6-9.png",
+        "id": "1",
+        "tag": "Galáxias"
+    },
+    {
+        "titulo": "Nome da Foto",
+        "creditos": "Alura Space",
+        "imagem": "/assets/img/Rectangle 6-8.png",
+        "id": "2",
+        "tag": "Estrelas"
+    },
+    {
+        "titulo": "Nome da Foto",
+        "creditos": "Alura Space",
+        "imagem": "/assets/img/Rectangle 6-7.png",
+        "id": "3",
+        "tag": "Lua"
+    },
+    {
+        "titulo": "Nome da Foto",
+        "creditos": "Alura Space",
+        "imagem": "/assets/img/Rectangle 6-6.png",
+        "id": "4",
+        "tag": "Galáxias"
+    },
+    {
+        "titulo": "Nome da Foto",
+        "creditos": "Alura Space",
+        "imagem": "/assets/img/Rectangle 6-5.png",
+        "id": "5",
+        "tag": "Estrelas"
+    },
+    {
+        "titulo": "Nome da Foto",
+        "creditos": "Alura Space",
+        "imagem": "/assets/img/Rectangle 6-4.png",
+        "id": "6",
+        "tag": "Nebulosas"
+    },
+    {
+        "titulo": "Nome da Foto",
+        "creditos": "Alura Space",
+        "imagem": "/assets/img/Rectangle 6-3.png",
+        "id": "7",
+        "tag": "Galáxias"
+    },
+    {
+        "titulo": "Nome da Foto",
+        "creditos": "Alura Space",
+        "imagem": "/assets/img/Rectangle 6-2.png",
+        "id": "8",
+        "tag": "Nebulosas"
+    },
+    {
+        "titulo": "Nome da Foto",
+        "creditos": "Alura Space",
+        "imagem": "/assets/img/Rectangle 6-1.png",
+        "id": "9",
+        "tag": "Estrelas"
+    },
+    {
+        "titulo": "Nome da Foto",
+        "creditos": "Alura Space",
+        "imagem": "/assets/img/Rectangle 6.png",
+        "id": "10",
+        "tag": "Estrelas"
+    }
+]

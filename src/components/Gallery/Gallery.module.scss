@@ -1,0 +1,58 @@
+@import '../../styles/variables';
+
+.gallery {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    max-width: 92rem;
+    
+    &__title {
+        font-size: 3.2rem;
+        color: $secondary-border-color;
+    }
+
+    &__list {
+        display: flex;
+        gap: 2.8rem;
+        flex-wrap: wrap;
+    }
+
+    &__card {
+        width: calc(100% / 3 - 18.66px);
+        background-color: $footer-bg;
+        border-radius: 2rem;
+    }
+
+    &__image {
+        width: 100%;
+        border-radius: 2rem 2rem 0 0;
+    }
+
+    &__description {
+        background-color: $footer-bg;
+        padding: 1.3rem 1.4rem;
+        border-radius: 0 0 2rem 2rem;
+        color: $white;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__name {
+        font-size: 2rem;
+        font-weight: 700;
+    }
+
+    &__credits {
+        font-size: 1.6rem;
+    }
+
+    &__btn {
+        display: flex;
+        gap: 1.5rem;
+        align-self: end;
+    }
+
+    &__fav, &__expand {
+        cursor: pointer;
+    }
+}

@@ -1,0 +1,38 @@
+@import '../../styles/variables';
+
+.nav {
+    max-width: max-content;
+    height: 100vh;
+
+    &__list {
+        display: flex;
+        flex-direction: column;
+        gap: 3.2rem;
+
+        .list__item {
+            display: flex;
+            align-items: center;
+            gap: 1.8rem;
+
+            .item__image {
+                width: 3.2rem;
+                height: 3.2rem;
+            }
+
+            .item__link_active {
+                font-size: 2.4rem;
+                font-weight: 700;
+                text-decoration: none;
+                color: $purple;
+            }
+
+            .item__link {
+                font-size: 2.4rem;
+                font-weight: 400;
+                text-decoration: none;
+                color: $light-gray;
+            }
+
+        }
+    }
+}
