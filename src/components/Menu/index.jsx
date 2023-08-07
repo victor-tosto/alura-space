@@ -1,8 +1,8 @@
-import homeAtiva from '../../assets/icons/home-ativo.svg';
-import vistasInativa from '../../assets/icons/views-inativo.svg';
-import curitdasInativa from '../../assets/icons/curtidas-inativo.svg';
-import novasInativa from '../../assets/icons/novas-inativo.svg';
-import surpreendaInativa from '../../assets/icons/surpreenda-inativo.svg';
+import homeAtiva from 'assets/icons/home-ativo.svg';
+import vistasInativa from 'assets/icons/views-inativo.svg';
+import curitdasInativa from 'assets/icons/curtidas-inativo.svg';
+import novasInativa from 'assets/icons/novas-inativo.svg';
+import surpreendaInativa from 'assets/icons/surpreenda-inativo.svg';
 import styles from './Menu.module.scss';
 
 const Menu = () => {

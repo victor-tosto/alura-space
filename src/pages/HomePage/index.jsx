@@ -1,10 +1,10 @@
 import banner from './banner.png';
-import Header from "../../components/Header";
-import Menu from "../../components/Menu";
+import Header from "components/Header";
+import Menu from "components/Menu";
 import styles from './HomePage.module.scss';
-import Gallery from '../../components/Gallery';
-import Footer from '../../components/Footer';
-import Popular from '../../components/Popular';
+import Gallery from 'components/Gallery';
+import Footer from 'components/Footer';
+import Popular from 'components/Popular';
 
 const HomePage = () => {
     return (
